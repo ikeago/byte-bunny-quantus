@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://donate-quantus-hash.fancymyna33.chatgpt.site/sitemap.xml

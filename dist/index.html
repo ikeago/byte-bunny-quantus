@@ -108,7 +108,7 @@
   <script>
     const ADDRESS='qzq2E9QiGfz9q7mbtNA8uWdb8VGApRSY659zprMLUj9FAPZ4Z';
     const API='https://www.quantusminer.com/api/miner/'+ADDRESS;
-    const CAMPAIGN_BASELINE=26206;
+    const CAMPAIGN_BASELINE=25000;
     const toast=(msg)=>{const el=document.getElementById('toast');el.textContent=msg;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2200)};
     const copy=async(text)=>{try{await navigator.clipboard.writeText(text);toast('Copied to clipboard')}catch{toast('Copy failed — select the text manually')}};
     document.getElementById('browserBtn').onclick=()=>{window.open('https://www.quantusminer.com/mine','_blank','noopener');copy(ADDRESS)};
